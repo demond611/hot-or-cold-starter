@@ -27,7 +27,7 @@ $(function (){
 
     /* SUBMITS INFO ON FORM SUBMIT */
     $("form").submit(function (event){
-    	event.PreventDefault();
+    	event.preventDefault();
     	debug("made it here");
     	if (foundNumber){
 
